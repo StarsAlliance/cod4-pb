@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Universal GameServer Patch" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\ugsp86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-noprompts -o patched.dll swds.dll" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-D__NOLIBBUILD__" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseX64">
+				<Option output="bin\ReleaseX64\ugsp64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\ReleaseX64\" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_44_compilerwinx64" />
+				<Compiler>
+					<Add option="-Wmain" />
+					<Add option="-D__NOLIBBUILD__" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Release(X86-ALT)">
+				<Option output="bin\Release\ugsp86alt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release(X86-ALT)\" />
+				<Option type="1" />
+				<Option compiler="lcc" />
+				<Option parameters="-noprompts -o patched.dll swds.dll" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="/D__NOLIBBUILD__" />
+					<Add option="/D__PellesC__" />
+				</Compiler>
+			</Target>
+			<Target title="Release(X64-ALT)">
+				<Option output="bin\ReleaseX64\ugsp64alt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release(X64-ALT)\" />
+				<Option type="1" />
+				<Option compiler="pelles_c_compilerx64" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="/D__NOLIBBUILD__" />
+					<Add option="/D__PellesC__" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cod4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cod4.h" />
+		<Unit filename="ietqw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ietqw.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbindefs.h" />
+		<Unit filename="opbinelf.h" />
+		<Unit filename="opbininfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbininfo.h" />
+		<Unit filename="opbinpe.h" />
+		<Unit filename="operror.h" />
+		<Unit filename="oplog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="oplog.h" />
+		<Unit filename="opportability.h" />
+		<Unit filename="opptrnbase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opptrnbase.h" />
+		<Unit filename="opstream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opstream.h" />
+		<Unit filename="opstreamint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opstreamint.h" />
+		<Unit filename="punkbuster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="punkbuster.h" />
+		<Unit filename="redorchestra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="redorchestra.h" />
+		<Unit filename="ue25.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ue25.h" />
+		<Unit filename="ut3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ut3.h" />
+		<Unit filename="vgoldsrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgoldsrc.h" />
+		<Unit filename="vhl1lstsrv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vhl1lstsrv.h" />
+		<Unit filename="vlvgameui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvgameui.h" />
+		<Unit filename="vlvshared.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvshared.h" />
+		<Unit filename="vlvsteamui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvsteamui.h" />
+		<Unit filename="vsource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource.h" />
+		<Unit filename="vsource2007.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource2007.h" />
+		<Unit filename="vsource2007U1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource2007U1.h" />
+		<Unit filename="vupmultilang.h" />
+		<Unit filename="vupshared.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

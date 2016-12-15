@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Universal GameServer Patch For Linux" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/ugsp_i686" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compileri686" />
+				<Option parameters="-noprompts -o patched.dll swds.dll" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-m32" />
+					<Add option="-D__NOLIBBUILD__" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="/usr/lib32/libc_nonshared.a" />
+					<Add library="/usr/lib/gcc/x86_64-linux-gnu/4.4/32/libgcc.a" />
+					<Add library="/usr/lib/gcc/x86_64-linux-gnu/4.4/32/libgcc_eh.a" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseX64">
+				<Option output="bin/ReleaseX64/ugsp_amd64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/ReleaseX64/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wmain" />
+					<Add option="-m64" />
+					<Add option="-D__NOLIBBUILD__" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="/usr/lib/libc_nonshared.a" />
+					<Add library="/usr/lib/gcc/x86_64-linux-gnu/4.4/libgcc.a" />
+					<Add library="/usr/lib/gcc/x86_64-linux-gnu/4.4/libgcc_eh.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-static -static-libgcc -fno-exceptions -fno-rtti" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-static" />
+			<Add option="-static-libgcc" />
+		</Linker>
+		<Unit filename="cod4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cod4.h" />
+		<Unit filename="ietqw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ietqw.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbindefs.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbinelf.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbininfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbininfo.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opbinpe.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="operror.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="oplog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="oplog.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opportability.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opptrnbase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opptrnbase.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opstream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opstream.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opstreamint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opstreamint.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="punkbuster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="punkbuster.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="redorchestra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="redorchestra.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ue25.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ue25.h" />
+		<Unit filename="ut3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ut3.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgoldsrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgoldsrc.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vhl1lstsrv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vhl1lstsrv.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvgameui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvgameui.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvshared.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvshared.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvsteamui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vlvsteamui.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource2007.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource2007.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource2007U1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vsource2007U1.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vupmultilang.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vupshared.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
