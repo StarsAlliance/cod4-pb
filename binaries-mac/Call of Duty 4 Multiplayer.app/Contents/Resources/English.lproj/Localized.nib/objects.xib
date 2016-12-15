@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonWindow" id="166">
+      <string name="windowRect">184 279 557 651 </string>
+      <string name="title">Display Configuration</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="bounds">0 0 373 372 </string>
+        <array count="6" name="subviews">
+          <object class="IBCarbonButton" id="180">
+            <string name="bounds">333 282 353 352 </string>
+            <string name="title">OK</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="181">
+            <string name="bounds">333 200 353 270 </string>
+            <string name="title">Quit</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonGroupBox" id="192">
+            <string name="bounds">6 20 250 352 </string>
+            <array count="1" name="subviews">
+              <object class="IBCarbonUserPane" id="182">
+                <string name="bounds">34 36 234 336 </string>
+                <ostype name="controlSignature">Item</ostype>
+                <int name="controlID">1</int>
+                <int name="featureBits">32</int>
+              </object>
+            </array>
+            <string name="title">Please select a display:</string>
+          </object>
+          <object class="IBCarbonCheckBox" id="200">
+            <string name="bounds">267 20 285 164 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Custom Resolution:</string>
+            <ostype name="command">CRes</ostype>
+          </object>
+          <object class="IBCarbonPopupButton" id="201">
+            <string name="bounds">266 172 286 352 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">6</int>
+            <int name="titleJustification">0</int>
+            <object name="menu" class="IBCarbonMenu" id="199">
+              <string name="title">Popup:</string>
+              <array count="1" name="items">
+                <object class="IBCarbonMenuItem" id="202">
+                  <boolean name="checked">TRUE</boolean>
+                  <string name="title">Item</string>
+                </object>
+              </array>
+            </object>
+          </object>
+          <object class="IBCarbonCheckBox" id="198">
+            <string name="bounds">295 20 313 147 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Full Screen Mode</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+    </object>
+    <reference idRef="167"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="192"/>
+    <reference idRef="198"/>
+    <reference idRef="199"/>
+    <reference idRef="200"/>
+    <reference idRef="201"/>
+    <reference idRef="202"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="192"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="201"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DisplayConfig</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">203</unsigned_int>
+</object>

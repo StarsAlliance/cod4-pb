@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Call of Duty 4 Multiplayer</string>
+	<key>CFBundleExecutable</key>
+	<string>Call of Duty 4 Multiplayer</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.5 (75981), Copyright 2008 Activision Publishing, Inc.</string>
+	<key>CFBundleIconFile</key>
+	<string>Game_mp.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.aspyr.callofduty4</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Call of Duty 4 Multiplayer</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.5</string>
+	<key>CFBundleSignature</key>
+	<string>CD4M</string>
+	<key>CFBundleVersion</key>
+	<string>75981</string>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+	<key>VersionWithBuildString</key>
+	<string>1.5 (75981)</string>
+</dict>
+</plist>

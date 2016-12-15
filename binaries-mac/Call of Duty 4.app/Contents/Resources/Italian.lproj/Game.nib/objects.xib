@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonWindow" id="166">
+      <string name="windowRect">364 755 540 1168 </string>
+      <string name="title">Key Code Check</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="bounds">0 0 176 413 </string>
+        <array count="10" name="subviews">
+          <object class="IBCarbonPicture" id="205">
+            <string name="bounds">21 20 69 68 </string>
+            <int name="contentResID">2000</int>
+          </object>
+          <object class="IBCarbonStaticText" id="203">
+            <string name="bounds">20 81 36 256 </string>
+            <string name="title">Inserisci il tuo Key Code.</string>
+          </object>
+          <object class="IBCarbonStaticText" id="204">
+            <string name="bounds">45 81 58 365 </string>
+            <boolean name="small">TRUE</boolean>
+            <int name="controlSize">1</int>
+            <string name="title">Il Key Code si trova sul retro del manuale.</string>
+          </object>
+          <object class="IBCarbonEditText" id="206">
+            <string name="bounds">91 84 107 134 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">1</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonButton" id="181">
+            <string name="bounds">136 241 156 311 </string>
+            <string name="title">Esci</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonButton" id="180">
+            <string name="bounds">136 323 156 393 </string>
+            <string name="title">Sì</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonEditText" id="207">
+            <string name="bounds">91 148 107 198 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">2</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonEditText" id="208">
+            <string name="bounds">91 212 107 262 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">3</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonEditText" id="209">
+            <string name="bounds">91 276 107 326 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">4</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonEditText" id="210">
+            <string name="bounds">91 340 107 390 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">5</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+    </object>
+    <reference idRef="167"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="203"/>
+    <reference idRef="204"/>
+    <reference idRef="205"/>
+    <reference idRef="206"/>
+    <reference idRef="207"/>
+    <reference idRef="208"/>
+    <reference idRef="209"/>
+    <reference idRef="210"/>
+    <object class="IBCarbonWindow" id="211">
+      <string name="windowRect">406 655 566 1125 </string>
+      <string name="title">safe mode</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="212">
+        <string name="bounds">0 0 160 470 </string>
+        <array count="5" name="subviews">
+          <object class="IBCarbonStaticText" id="215">
+            <string name="bounds">20 76 100 450 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">1</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">x&#10;x&#10;x&#10;x&#10;x&#10;</string>
+            <ostype name="command">Text</ostype>
+          </object>
+          <object class="IBCarbonButton" id="221">
+            <string name="bounds">120 216 140 286 </string>
+            <string name="title">Esci</string>
+            <ostype name="command">Quit</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonButton" id="214">
+            <string name="bounds">120 380 140 450 </string>
+            <string name="title">Sì</string>
+            <ostype name="command">Yes_</ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="223">
+            <string name="bounds">120 298 140 368 </string>
+            <string name="title">No</string>
+            <ostype name="command">No__</ostype>
+          </object>
+          <object class="IBCarbonIcon" id="224">
+            <string name="bounds">20 20 68 68 </string>
+            <int name="contentResID">2</int>
+            <int name="creator">0</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+    </object>
+    <reference idRef="212"/>
+    <reference idRef="214"/>
+    <reference idRef="215"/>
+    <reference idRef="221"/>
+    <reference idRef="223"/>
+    <reference idRef="224"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="211"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>KeyCode</string>
+    <reference idRef="166"/>
+    <string>SafeMode</string>
+    <reference idRef="211"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">225</unsigned_int>
+</object>

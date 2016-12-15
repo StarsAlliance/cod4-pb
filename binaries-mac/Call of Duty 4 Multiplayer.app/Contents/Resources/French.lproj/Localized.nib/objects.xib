@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonWindow" id="166">
+      <string name="windowRect">155 171 520 570 </string>
+      <string name="title">Configuration d&apos;écran</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="bounds">0 0 365 399 </string>
+        <array count="6" name="subviews">
+          <object class="IBCarbonButton" id="180">
+            <string name="bounds">325 309 345 379 </string>
+            <string name="title">OK</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="181">
+            <string name="bounds">325 224 345 297 </string>
+            <string name="title">Quitter</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonGroupBox" id="192">
+            <string name="bounds">8 20 252 379 </string>
+            <array count="1" name="subviews">
+              <object class="IBCarbonUserPane" id="182">
+                <string name="bounds">36 36 236 363 </string>
+                <ostype name="controlSignature">Item</ostype>
+                <int name="controlID">1</int>
+                <int name="featureBits">32</int>
+              </object>
+            </array>
+            <string name="title">Veuillez sélectionner un moniteur :</string>
+          </object>
+          <object class="IBCarbonCheckBox" id="199">
+            <string name="bounds">287 20 305 149 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Mode plein écran</string>
+          </object>
+          <object class="IBCarbonCheckBox" id="201">
+            <string name="bounds">261 20 279 207 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Résolution personnalisée :</string>
+            <ostype name="command">CRes</ostype>
+          </object>
+          <object class="IBCarbonPopupButton" id="202">
+            <string name="bounds">260 215 280 379 </string>
+            <ostype name="controlSignature">Item</ostype>
+            <int name="controlID">6</int>
+            <int name="titleJustification">0</int>
+            <object name="menu" class="IBCarbonMenu" id="200">
+              <string name="title">Popup:</string>
+              <array count="1" name="items">
+                <object class="IBCarbonMenuItem" id="203">
+                  <boolean name="checked">TRUE</boolean>
+                  <string name="title">Item</string>
+                </object>
+              </array>
+            </object>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+    </object>
+    <reference idRef="167"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="192"/>
+    <reference idRef="199"/>
+    <reference idRef="200"/>
+    <reference idRef="201"/>
+    <reference idRef="202"/>
+    <reference idRef="203"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="192"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="202"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="200"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DisplayConfig</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">204</unsigned_int>
+</object>
