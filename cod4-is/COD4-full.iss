@@ -3,15 +3,15 @@
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{1601D586-CCA6-4C94-A6C1-05E6C0C4FB38}
-AppName="Call of Duty 4: Multiplayer"
+AppName="Call of Duty 4 - Modern Warfare"
 AppVersion="1.7"
 ;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher="Activision Publishing"
-DefaultDirName={commonpf32}\Call of Duty 4
+DefaultDirName={commonpf32}\Call of Duty 4 - Modern Warfare
 DefaultGroupName=Call of Duty 4
 OutputDir=C:\Users\Drago\COD\OUTPUT
 OutputBaseFilename=setup
-SetupIconFile=C:\Users\Drago\COD\Call of Duty 4\cod4.ico
+SetupIconFile=C:\Users\Drago\COD\Call of Duty 4 - Modern Warfare\cod4.ico
 TimeStampsInUTC=True
 ShowLanguageDialog=auto
 LanguageDetectionMethod=locale
@@ -37,7 +37,7 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "..\Call of Duty 4\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: CallofDuty4
+Source: "..\Call of Duty 4 - Modern Warfare\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: CallofDuty4
 Source: "..\pb\*"; DestDir: "{app}\pb"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Punkbuster
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 Source: "..\cod4x183.exe"; DestDir: "{app}"; Components: COD4X
@@ -78,7 +78,9 @@ Name: "COD4X"; Description: "COD4X Mod"; Types: custom full
 
 [Icons]
 Name: "{group}\Документация"; Filename: "{app}\Docs"; Flags: foldershortcut
-Name: "{group}\Call of Duty 4"; Filename: "{app}\iw3mp.exe"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico";
+Name: "{group}\Call of Duty 4"; Filename: "{app}\iw3sp.exe"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico";
+Name: "{group}\Call of Duty 4 MP "; Filename: "{app}\iw3mp.exe"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico";
 Name: "{group}\Поддержка Call of Duty 4"; Filename: "https://stars-alliance.ru"
 Name: "{group}\Удалить Call of Duty 4"; Filename: "{uninstallexe}"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico"
-Name: "{commondesktop}\Call of Duty 4"; Filename: "{app}\iw3mp.exe"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico"; Tasks: desktopicon
+Name: "{commondesktop}\Call of Duty 4 - MP"; Filename: "{app}\iw3mp.exe"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico"; Tasks: desktopicon
+Name: "{commondesktop}\Call of Duty 4"; Filename: "{app}\iw3sp.exe"; WorkingDir: "{app}"; IconFilename: "{app}\cod4.ico"; Tasks: desktopicon
